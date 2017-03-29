@@ -10088,15 +10088,6 @@ var _user$project$Main$formView = A2(
 			}
 		}
 	});
-var _user$project$Main$update = F2(
-	function (msg, model) {
-		var _p0 = msg;
-		return {ctor: '_Tuple2', _0: model, _1: _elm_lang$core$Platform_Cmd$none};
-	});
-var _user$project$Main$endpointUrl = function (name) {
-	return A2(_elm_lang$core$Basics_ops['++'], 'https://mars-backend-160319.appspot.com/api/meatballs-inc/prototype-x/', name);
-};
-var _user$project$Main$homepageUrl = '/mars-frontend/skyveri-corp/homepage';
 var _user$project$Main$view = function (model) {
 	return A2(
 		_elm_lang$html$Html$div,
@@ -10216,7 +10207,7 @@ var _user$project$Main$view = function (model) {
 											}),
 										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$href(_user$project$Main$homepageUrl),
+											_0: _elm_lang$html$Html_Attributes$href('#'),
 											_1: {ctor: '[]'}
 										}
 									}
@@ -10425,7 +10416,7 @@ var _user$project$Main$view = function (model) {
 																	}),
 																_1: {
 																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$href(_user$project$Main$homepageUrl),
+																	_0: _elm_lang$html$Html_Attributes$href('#'),
 																	_1: {ctor: '[]'}
 																}
 															}
@@ -10447,6 +10438,14 @@ var _user$project$Main$view = function (model) {
 				}
 			}
 		});
+};
+var _user$project$Main$update = F2(
+	function (msg, model) {
+		var _p0 = msg;
+		return {ctor: '_Tuple2', _0: model, _1: _elm_lang$core$Platform_Cmd$none};
+	});
+var _user$project$Main$endpointUrl = function (name) {
+	return A2(_elm_lang$core$Basics_ops['++'], 'https://mars-backend-160319.appspot.com/api/meatballs-inc/prototype-x/', name);
 };
 var _user$project$Main$Model = function (a) {
 	return {todo: a};
