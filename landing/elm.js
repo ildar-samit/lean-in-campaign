@@ -10431,7 +10431,7 @@ var _user$project$Main$view = function (model) {
 														},
 														{
 															ctor: '::',
-															_0: _elm_lang$html$Html$text('Yep.'),
+															_0: _elm_lang$html$Html$text('Find Out How'),
 															_1: {ctor: '[]'}
 														}),
 													_1: {ctor: '[]'}

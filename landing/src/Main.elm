@@ -70,7 +70,7 @@ view model =
     , div [ class "container my-5", style [] ] [ text "Do you work for a company that doesn’t even have an app for its employees? Should’t every business have their own app?" ]
     , div [ class "container my-5", style [] ] [ text "Do you want your team to benefit from apps, cloud computing, and yes, even artificial intelligence?" ]
     , div [ class "container my-5", style [ ( "text-align", "center" ) ] ]
-        [ a [ class "btn btn-primary px-5 py-3", style [ ( "border-radius", "30px" ), ( "margin-bottom", "80px" ), ( "font-size", "22px" ) ], href "#" ] [ text "Yep." ] ]
+        [ a [ class "btn btn-primary px-5 py-3", style [ ( "border-radius", "30px" ), ( "margin-bottom", "80px" ), ( "font-size", "22px" ) ], href "#" ] [ text "Find Out How" ] ]
     ]
 
 
