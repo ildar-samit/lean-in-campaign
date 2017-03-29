@@ -53,7 +53,7 @@ view : Model -> Html Msg
 view model =
   div []
     [ div [ style headerStyle ]
-        [ div [ class "container mb-4", style [ ( "padding-top", "30px" ), ( "padding-bottom", "25px" ), ( "font-style", "italic" ), ( "color", "#fff" ), ( "background", "#124" ) ] ]
+        [ div [ class "container mb-4", style [ ( "padding-top", "30px" ), ( "padding-bottom", "25px" ), ( "font-size", "18px" ), ( "font-style", "italic" ), ( "color", "#fff" ), ( "background", "#124" ) ] ]
             [ div [] [ text "Given how fast the world moves today, grabbing opportunities is more important than ever." ]
             , div [ style [ ( "text-align", "right" ) ] ] [ text "- Lean In, page 123" ]
             ]
@@ -61,7 +61,7 @@ view model =
     , formView
     , div [ class "my-4 container", style [ ( "text-align", "center" ) ] ]
         [ a [ class "btn btn-primary px-4 py-2", style [ ( "border-radius", "30px" ), ( "font-size", "19px" ) ], href "#" ] [ text "Get Started" ] ]
-    , div [ class "container", style [ ( "margin", "120px 0" ), ( "padding-top", "100px" ), ( "padding-bottom", "90px" ), ( "background", "#124" ), ( "color", "#fff" ), ( "font-style", "italic" ) ] ]
+    , div [ class "container", style [ ( "margin", "120px 0" ), ( "padding-top", "100px" ), ( "padding-bottom", "90px" ), ( "font-size", "18px" ), ( "background", "#124" ), ( "color", "#fff" ), ( "font-style", "italic" ) ] ]
         [ div [] [ text "Taking initiative pays off. It is hard to visualize someone as a leader if she is always waiting to be told what to do." ]
         , div [ style [ ( "text-align", "right" ) ] ] [ text "- Lean In, page 456" ]
         ]

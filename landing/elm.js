@@ -10119,14 +10119,18 @@ var _user$project$Main$view = function (model) {
 											_0: {ctor: '_Tuple2', _0: 'padding-bottom', _1: '25px'},
 											_1: {
 												ctor: '::',
-												_0: {ctor: '_Tuple2', _0: 'font-style', _1: 'italic'},
+												_0: {ctor: '_Tuple2', _0: 'font-size', _1: '18px'},
 												_1: {
 													ctor: '::',
-													_0: {ctor: '_Tuple2', _0: 'color', _1: '#fff'},
+													_0: {ctor: '_Tuple2', _0: 'font-style', _1: 'italic'},
 													_1: {
 														ctor: '::',
-														_0: {ctor: '_Tuple2', _0: 'background', _1: '#124'},
-														_1: {ctor: '[]'}
+														_0: {ctor: '_Tuple2', _0: 'color', _1: '#fff'},
+														_1: {
+															ctor: '::',
+															_0: {ctor: '_Tuple2', _0: 'background', _1: '#124'},
+															_1: {ctor: '[]'}
+														}
 													}
 												}
 											}
@@ -10244,14 +10248,18 @@ var _user$project$Main$view = function (model) {
 													_0: {ctor: '_Tuple2', _0: 'padding-bottom', _1: '90px'},
 													_1: {
 														ctor: '::',
-														_0: {ctor: '_Tuple2', _0: 'background', _1: '#124'},
+														_0: {ctor: '_Tuple2', _0: 'font-size', _1: '18px'},
 														_1: {
 															ctor: '::',
-															_0: {ctor: '_Tuple2', _0: 'color', _1: '#fff'},
+															_0: {ctor: '_Tuple2', _0: 'background', _1: '#124'},
 															_1: {
 																ctor: '::',
-																_0: {ctor: '_Tuple2', _0: 'font-style', _1: 'italic'},
-																_1: {ctor: '[]'}
+																_0: {ctor: '_Tuple2', _0: 'color', _1: '#fff'},
+																_1: {
+																	ctor: '::',
+																	_0: {ctor: '_Tuple2', _0: 'font-style', _1: 'italic'},
+																	_1: {ctor: '[]'}
+																}
 															}
 														}
 													}
