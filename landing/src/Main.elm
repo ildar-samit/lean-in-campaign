@@ -60,7 +60,7 @@ view model =
         ]
     , formView
     , div [ class "my-4 container", style [ ( "text-align", "center" ) ] ]
-        [ a [ class "btn btn-primary px-5 py-3", style [ ( "border-radius", "30px" ) ], href "#" ] [ text "Get Started" ] ]
+        [ a [ class "btn btn-primary px-4 py-2", style [ ( "border-radius", "30px" ), ( "font-size", "19px" ) ], href "#" ] [ text "Get Started" ] ]
     , div [ class "container", style [ ( "margin", "120px 0" ), ( "padding-top", "100px" ), ( "padding-bottom", "90px" ), ( "background", "#124" ), ( "color", "#fff" ), ( "font-style", "italic" ) ] ]
         [ div [] [ text "Taking initiative pays off. It is hard to visualize someone as a leader if she is always waiting to be told what to do." ]
         , div [ style [ ( "text-align", "right" ) ] ] [ text "- Lean In, page 456" ]
@@ -70,7 +70,7 @@ view model =
     , div [ class "container my-5", style [] ] [ text "Do you work for a company that doesn’t even have an app for its employees? Should’t every business have their own app?" ]
     , div [ class "container my-5", style [] ] [ text "Do you want your team to benefit from apps, cloud computing, and yes, even artificial intelligence?" ]
     , div [ class "container my-5", style [ ( "text-align", "center" ) ] ]
-        [ a [ class "btn btn-primary px-5 py-3", style [ ( "border-radius", "30px" ), ( "margin-bottom", "80px" ) ], href "#" ] [ text "Yep." ] ]
+        [ a [ class "btn btn-primary px-5 py-3", style [ ( "border-radius", "30px" ), ( "margin-bottom", "80px" ), ( "font-size", "22px" ) ], href "#" ] [ text "Yep." ] ]
     ]
 
 

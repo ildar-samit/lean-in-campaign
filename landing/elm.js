@@ -10196,14 +10196,18 @@ var _user$project$Main$view = function (model) {
 								_elm_lang$html$Html$a,
 								{
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('btn btn-primary px-5 py-3'),
+									_0: _elm_lang$html$Html_Attributes$class('btn btn-primary px-4 py-2'),
 									_1: {
 										ctor: '::',
 										_0: _elm_lang$html$Html_Attributes$style(
 											{
 												ctor: '::',
 												_0: {ctor: '_Tuple2', _0: 'border-radius', _1: '30px'},
-												_1: {ctor: '[]'}
+												_1: {
+													ctor: '::',
+													_0: {ctor: '_Tuple2', _0: 'font-size', _1: '19px'},
+													_1: {ctor: '[]'}
+												}
 											}),
 										_1: {
 											ctor: '::',
@@ -10411,7 +10415,11 @@ var _user$project$Main$view = function (model) {
 																		_1: {
 																			ctor: '::',
 																			_0: {ctor: '_Tuple2', _0: 'margin-bottom', _1: '80px'},
-																			_1: {ctor: '[]'}
+																			_1: {
+																				ctor: '::',
+																				_0: {ctor: '_Tuple2', _0: 'font-size', _1: '22px'},
+																				_1: {ctor: '[]'}
+																			}
 																		}
 																	}),
 																_1: {
